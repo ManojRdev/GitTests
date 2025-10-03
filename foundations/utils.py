@@ -36,3 +36,8 @@ def factorial(n: int) -> int:
 def top_n(items: List[int], n: int = 3) -> List[int]:
     """Return the top n largest items sorted descending."""
     return sorted(items, reverse=True)[:n]
+
+
+def _private_function() -> None:
+    """This function is private and should not be imported."""
+    pass
