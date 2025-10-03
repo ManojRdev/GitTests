@@ -41,3 +41,7 @@ def top_n(items: List[int], n: int = 3) -> List[int]:
 def _private_function() -> None:
     """This function is private and should not be imported."""
     pass
+
+def new_function() -> None:
+    """This is a new function added to the file."""
+    pass
