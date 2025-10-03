@@ -45,3 +45,10 @@ def _private_function() -> None:
 def new_function() -> None:
     """This is a new function added to the file."""
     pass
+
+
+def create_user(name):
+    return name
+
+def upload_Files():
+    pass
